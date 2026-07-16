@@ -1,0 +1,50 @@
+{
+  "about": [
+    {
+      "date": "Add dates",
+      "title": "SOC Analyst Intern",
+      "org": "Add employer name",
+      "description": "Monitored alerts across SIEM platforms, triaged incidents, and documented investigation findings for the security operations team."
+    },
+    {
+      "date": "Add dates",
+      "title": "DevSecOps Intern",
+      "org": "Add employer name",
+      "description": "Integrated security scanning into CI/CD pipelines and supported the hardening of containerized workloads running on Kubernetes."
+    }
+  ],
+  "experience": [
+    {
+      "date": "Add dates",
+      "title": "SOC Analyst Intern",
+      "org": "Add employer name",
+      "description": "Monitored and triaged security alerts using Wazuh and Splunk, escalated confirmed incidents through TheHive, and contributed to detection rule tuning to reduce false positives."
+    },
+    {
+      "date": "Add dates",
+      "title": "DevSecOps Intern",
+      "org": "Add employer name",
+      "description": "Built security checks into GitLab CI/CD pipelines with SonarQube and Trivy, and helped harden Kubernetes deployments using Helm and network policies."
+    },
+    {
+      "date": "Add dates",
+      "title": "Network & Infrastructure Intern",
+      "org": "Add employer name",
+      "description": "Supported network monitoring and firewall administration, gaining hands-on exposure to pfSense, intrusion detection with Suricata, and Linux system administration."
+    }
+  ],
+  "education": [
+    {
+      "date": "Add dates",
+      "title": "Engineering Degree — Cybersecurity Track",
+      "org": "Add institution name",
+      "description": "Coursework spanning network security, cryptography, security operations, and secure software development, with hands-on labs in SOC tooling and cloud security."
+    },
+    {
+      "date": "Add dates",
+      "title": "Preparatory / Foundation Studies",
+      "org": "Add institution name",
+      "description": "Foundational studies in mathematics, computer science, and systems engineering ahead of specializing in cybersecurity."
+    }
+  ]
+}

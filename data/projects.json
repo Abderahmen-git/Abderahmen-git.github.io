@@ -1,0 +1,102 @@
+[
+  {
+    "id": "soc-incident-investigations",
+    "title": "SOC Incident Investigations",
+    "category": "SOC & Incident Response",
+    "status": "in-progress",
+    "description": "A documented walkthrough of simulated SOC incidents — from alert triage in the SIEM through containment and lessons-learned reporting — modeled on real-world Tier 1/2 analyst workflows.",
+    "technologies": ["Wazuh", "TheHive", "Cortex", "MISP"],
+    "skillsDemonstrated": ["Alert triage", "Case management", "Root cause analysis", "Incident reporting"],
+    "github": "https://github.com/abderahmen-git/soc-incident-investigations"
+  },
+  {
+    "id": "detection-engineering",
+    "title": "Detection Engineering Rule Library",
+    "category": "Detection Engineering",
+    "status": "in-progress",
+    "description": "A version-controlled library of Sigma detection rules mapped to MITRE ATT&CK, with test cases and notes on tuning for false-positive reduction across common attacker techniques.",
+    "technologies": ["Sigma", "Splunk", "MITRE ATT&CK", "Python"],
+    "skillsDemonstrated": ["Detection logic design", "Log source mapping", "Rule tuning", "ATT&CK coverage analysis"],
+    "github": "https://github.com/abderahmen-git/detection-engineering"
+  },
+  {
+    "id": "threat-hunting",
+    "title": "Threat Hunting Playbooks",
+    "category": "Threat Intelligence",
+    "status": "planned",
+    "description": "Hypothesis-driven threat hunts built from MISP indicators and Suricata/Snort telemetry, packaged as repeatable playbooks a SOC team could run on a recurring schedule.",
+    "technologies": ["MISP", "Suricata", "Snort", "Security Onion"],
+    "skillsDemonstrated": ["Hypothesis-driven hunting", "IOC pivoting", "Network traffic analysis"],
+    "github": "https://github.com/abderahmen-git/threat-hunting-playbooks"
+  },
+  {
+    "id": "splunk-lab",
+    "title": "Splunk Lab: Enterprise Log Pipeline",
+    "category": "SIEM Engineering",
+    "status": "planned",
+    "description": "A home-lab Splunk deployment ingesting endpoint, firewall, and identity logs, with custom dashboards and correlation searches built to surface suspicious authentication activity.",
+    "technologies": ["Splunk", "pfSense", "Linux", "Python"],
+    "skillsDemonstrated": ["Log onboarding", "Dashboarding", "Correlation search design"],
+    "github": "https://github.com/abderahmen-git/splunk-lab"
+  },
+  {
+    "id": "wazuh-lab",
+    "title": "Wazuh Lab: Endpoint & File Integrity Monitoring",
+    "category": "SIEM Engineering",
+    "status": "planned",
+    "description": "A self-hosted Wazuh deployment configured for endpoint detection, file integrity monitoring, and CIS benchmark compliance checks across a small mixed Linux/Windows fleet.",
+    "technologies": ["Wazuh", "Linux", "Windows", "Docker"],
+    "skillsDemonstrated": ["Agent deployment", "FIM configuration", "Compliance auditing"],
+    "github": "https://github.com/abderahmen-git/wazuh-lab"
+  },
+  {
+    "id": "devsecops-platform",
+    "title": "DevSecOps Pipeline Platform",
+    "category": "DevSecOps",
+    "status": "in-progress",
+    "description": "A GitLab CI/CD pipeline with security gates baked in: SAST with SonarQube, container scanning with Trivy, and secrets management with Vault, deploying to Kubernetes via ArgoCD.",
+    "technologies": ["GitLab CI/CD", "Trivy", "SonarQube", "Vault", "ArgoCD"],
+    "skillsDemonstrated": ["Pipeline security gating", "Secrets management", "GitOps deployment"],
+    "github": "https://github.com/abderahmen-git/devsecops-platform"
+  },
+  {
+    "id": "kubernetes-security",
+    "title": "Kubernetes Security Hardening",
+    "category": "Cloud & Kubernetes Security",
+    "status": "planned",
+    "description": "A hardened Kubernetes cluster baseline covering network policies, Pod Security Standards, RBAC least-privilege design, and runtime monitoring with Prometheus and Grafana.",
+    "technologies": ["Kubernetes", "Helm", "Prometheus", "Grafana", "Loki"],
+    "skillsDemonstrated": ["Cluster hardening", "RBAC design", "Runtime observability"],
+    "github": "https://github.com/abderahmen-git/kubernetes-security"
+  },
+  {
+    "id": "azure-security",
+    "title": "Azure Security Baseline",
+    "category": "Cloud & Kubernetes Security",
+    "status": "planned",
+    "description": "A baseline Azure landing zone configured against CIS benchmarks, covering identity, network segmentation, logging, and alerting for common cloud misconfigurations.",
+    "technologies": ["Azure", "Terraform", "Python", "Grafana"],
+    "skillsDemonstrated": ["Cloud hardening", "Identity governance", "Misconfiguration detection"],
+    "github": "https://github.com/abderahmen-git/azure-security-baseline"
+  },
+  {
+    "id": "powershell-automation",
+    "title": "PowerShell Automation Toolkit",
+    "category": "Automation & Scripting",
+    "status": "planned",
+    "description": "A collection of PowerShell scripts for Windows environment hardening, scheduled log collection, and repetitive SOC triage tasks, packaged as a reusable module.",
+    "technologies": ["PowerShell", "Windows", "Active Directory"],
+    "skillsDemonstrated": ["Windows automation", "Script packaging", "Triage acceleration"],
+    "github": "https://github.com/abderahmen-git/powershell-automation-toolkit"
+  },
+  {
+    "id": "security-scripts",
+    "title": "Security Scripts Collection",
+    "category": "Automation & Scripting",
+    "status": "planned",
+    "description": "Utility Python and Bash scripts for recon, log parsing, and IOC enrichment — the small tools that speed up day-to-day security engineering work.",
+    "technologies": ["Python", "Bash", "Nmap"],
+    "skillsDemonstrated": ["Scripting for security operations", "Automation of repetitive tasks"],
+    "github": "https://github.com/abderahmen-git/security-scripts"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "category": "Cybersecurity",
+    "icon": "shield",
+    "items": [
+      "SOC Operations",
+      "Incident Response",
+      "Detection Engineering",
+      "Threat Intelligence",
+      "Threat Hunting",
+      "Vulnerability Assessment"
+    ]
+  },
+  {
+    "category": "Cloud",
+    "icon": "cloud",
+    "items": ["Microsoft Azure", "Kubernetes Security", "Cloud Hardening", "Identity & Access Management"]
+  },
+  {
+    "category": "DevSecOps",
+    "icon": "devsecops",
+    "items": ["GitLab CI/CD", "Docker", "Kubernetes", "Helm", "ArgoCD", "Vault", "Trivy", "SonarQube"]
+  },
+  {
+    "category": "Programming",
+    "icon": "code",
+    "items": ["Python", "Bash", "JavaScript", "PowerShell"]
+  },
+  {
+    "category": "Networking",
+    "icon": "network",
+    "items": ["Suricata", "Snort", "pfSense", "Nmap", "TCP/IP Fundamentals"]
+  },
+  {
+    "category": "Operating Systems",
+    "icon": "os",
+    "items": ["Linux Administration", "Windows Administration", "Active Directory"]
+  },
+  {
+    "category": "Monitoring",
+    "icon": "monitor",
+    "items": ["Splunk", "QRadar", "Wazuh", "Security Onion", "Prometheus", "Grafana", "Loki"]
+  }
+]

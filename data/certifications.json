@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Cisco CCNA Security",
+    "issuer": "Cisco",
+    "description": "Validates skills in securing Cisco networks, including firewalls, VPNs, and intrusion prevention fundamentals.",
+    "date": "Add issue date"
+  },
+  {
+    "name": "Cisco CyberOps Associate",
+    "issuer": "Cisco",
+    "description": "Covers SOC fundamentals: monitoring, detecting, and responding to cybersecurity threats using standard SOC tooling.",
+    "date": "Add issue date"
+  },
+  {
+    "name": "Certified Ethical Hacker (CEH)",
+    "issuer": "EC-Council",
+    "description": "Covers offensive security methodology, reconnaissance, and exploitation techniques used to identify weaknesses before attackers do.",
+    "date": "Add issue date"
+  },
+  {
+    "name": "ISO/IEC 27001",
+    "issuer": "ISO",
+    "description": "Focused on information security management systems (ISMS) — risk assessment, controls, and governance frameworks.",
+    "date": "Add issue date"
+  },
+  {
+    "name": "Fortinet NSE 4",
+    "issuer": "Fortinet",
+    "description": "Demonstrates the ability to configure, manage, and troubleshoot FortiGate devices in real-world network security deployments.",
+    "date": "Add issue date"
+  }
+]
